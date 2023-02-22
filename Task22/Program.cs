@@ -7,7 +7,7 @@ int number  = Prompt("Ввежите натуральное число: ");
 
 
 if (number > 0) TableSqr(number);
-else Console.WriteLine("Dведено НЕнатуральное число ");
+else Console.WriteLine("Введено НЕнатуральное число ");
 
 void TableSqr(int n)
 {

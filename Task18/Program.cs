@@ -16,7 +16,7 @@ Console.WriteLine(result);
 string Prompt(string message)
 {
     Console.Write(message);
-    string num = Console.ReadLine();
+    string? num = Console.ReadLine();
     return num;
 }
 
