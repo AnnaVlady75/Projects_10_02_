@@ -8,8 +8,8 @@ Console.WriteLine("Введите целое положительное числ
 int number = Convert.ToInt32(Console.ReadLine());
 
 
-int sum = SumNumbers(number);
-Console.WriteLine($"Сумма чисел от 1 до {number} = {sum}");
+int amount = SumNumbers(number);
+Console.WriteLine($"Сумма чисел от 1 до {number} = {amount}");
 
 int SumNumbers (int num) // num = number
 {
