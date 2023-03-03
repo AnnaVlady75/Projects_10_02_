@@ -41,23 +41,7 @@ int[] array = CreateArrayRndInt(5, 0, 10);
 PrintArray(array);
 Console.WriteLine();
 int[] copyArray = CopyArray(array);
+copyArray[0] = 7;   // проверка, что это копия
 PrintArray(copyArray);
 
 
-// int[] CopyArray(int[] arr)
-// {
-//     int[] arrb = new int[arr.Length];
-//     for (int i = 0; i < arr.Length; i++)
-//     {
-//         arrb[i] = arr[i];
-
-//     }
-//     return arrb;
-// }
-
-// int[] array = CreateArrayRndInt(5, 1, 10);
-// PrintArray(array);
-// Console.WriteLine(" -> ");
-// int[] arrayB = CopyArray(array);
-// arrayB[0] = 99;
-// PrintArray(arrayB);
