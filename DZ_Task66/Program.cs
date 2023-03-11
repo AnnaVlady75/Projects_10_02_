@@ -9,9 +9,9 @@ Console.WriteLine("Введите число M: ");
 int number1 = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите натуральное число N: ");
 int number2 = int.Parse(Console.ReadLine());
-
-Console.WriteLine(SumElemsRec(number1, number2));
-
+if (number1 > 0 && number2 > 0)
+    Console.WriteLine(SumElemsRec(number1, number2));
+else Console.WriteLine($"Введено НЕ натуральное число");
 
 int SumElemsRec(int num1, int num2)
 {
